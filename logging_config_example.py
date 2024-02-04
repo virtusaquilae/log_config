@@ -2,7 +2,7 @@ import logging.config
 import json
 
 if __name__ == "__main__":
-    with open(R"/path/to/json/log_config.json", "r") as file:
+    with open(R"/path/to/json/config.json", "r") as file:
         config = json.load(file)
 
     logging.config.dictConfig(config)
